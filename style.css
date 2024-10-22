@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    font-size: 2rem;
+    display: flex;
+
+}
+.flex-child1{
+    background-color: aqua;
+    order: 1;
+}
+.flex-child2{
+    background-color:lightgoldenrodyellow;
+    order: -3;
+}
+.flex-child3{
+    background-color:lightsalmon;
+    order: 2;
+}
+.flex-child4{
+    background-color: bisque;
+    order: 0;
+}
+.flex-child5{
+    background-color:blueviolet;
+    order: 4;
+}
